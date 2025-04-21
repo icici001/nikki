@@ -39,6 +39,7 @@ config proxy 'proxy'
 	list bypass_group 'dnsmasq'
 	list bypass_group 'logd'
 	list bypass_group 'ubus'
+	list bypass_dscp '4'
 
 config mixin 'mixin'
 	option log_level 'warning'
@@ -76,7 +77,7 @@ config mixin 'mixin'
 	option dns_doh_prefer_http3 '0'
 	option dns_ipv6 '1'
 	option dns_system_hosts '1'
-	option hosts '1'
+	option hosts '0'
 	option dns_nameserver '1'
 	option dns_nameserver_policy '0'
 	option sniffer '1'
@@ -97,7 +98,7 @@ config mixin 'mixin'
 	option mixin_file_content '0'
 	option ui_name 'yacd'
 	option api_listen '[::]:9090'
-	option dns_listen '[::]:1053'
+	option dns_listen '[::]:7874'
 	option fake_ip_filter_mode 'blacklist'
 	option api_secret '123456'
 	option dns_hosts '1'
@@ -184,7 +185,7 @@ config editor 'editor'
 config log 'log'
 
 config hosts
-	option enabled '1'
+	option enabled '0'
 	option domain_name '[反代理域名：*.abc.com]'
 
 config nameserver_policy
@@ -206,10 +207,16 @@ config subscription
 	option url '1'
 
 config subscription
-	option name '糖果'
+	option name '小牛'
 	option url '1'
 	option user_agent 'clash.meta'
 	option prefer 'remote'
+
+config subscription
+	option name '硅谷云'
+	option user_agent 'clash.meta'
+	option prefer 'remote'
+	option url '1'
 
 config subscription
 	option name '猫耳'
@@ -222,12 +229,6 @@ config subscription
 	option url '1'
 	option user_agent 'clash.meta'
 	option prefer 'remote'
-
-config subscription
-	option name '红杏'
-	option user_agent 'clash.meta'
-	option prefer 'remote'
-	option url '1'
 
 config subscription
 	option name '牛逼'
