@@ -160,7 +160,7 @@ config env 'env'
 	option disable_quic_go_ecn '0'
 
 config authentication
-	option enabled '1'
+	option enabled '0'
 	option username 'nikki'
 	option password 'nikki'
 
