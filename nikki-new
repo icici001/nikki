@@ -203,19 +203,6 @@ config nameserver_policy
 	list nameserver '119.29.29.29'
 
 config subscription
-	option name '全聚合-noicon'
-	option url 'http://192.168.3.4:25500/sub?target=clash&url=http%3A%2F%2F192.168.3.4%3A3001%2FT3B9dgzBzdRbBF8Aqx7P%2Fdownload%2Fcollection%2FALL01&insert=false&config=https%3A%2F%2Fgithub.geekery.cn%2Fraw.githubusercontent.com%2Fliandu2024%2Fclash%2Frefs%2Fheads%2Fmain%2Fproxy%2Fclash-all-noicon.ini&emoji=false&list=false&tfo=false&scv=true&fdn=false&expand=true&sort=false&udp=true&new_name=true'
-	option user_agent 'clash.meta'
-	option prefer 'remote'
-	option upload '7.87427 GB'
-	option download '102.909 GB'
-	option total '4.88281 TB'
-	option used '110.783 GB'
-	option avaliable '4.77463 TB'
-	option update '2025-04-11 21:48:22'
-	option success '1'
-
-config subscription
 	option name '聚合机场'
 	option url '1'
 	option user_agent 'clash.meta'
