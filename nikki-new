@@ -193,41 +193,4 @@ config subscription
 	option prefer 'remote'
 	option success '0'
 	
-config subscription
-	option name '火烧云'
-	option user_agent 'clash.meta'
-	option prefer 'remote'
-	option url '2'
-
-config subscription
-	option name '小牛'
-	option url '2'
-	option user_agent 'clash.meta'
-	option prefer 'remote'
-	option update '2025-03-14 21:31:45'
-	option success '1'
-
-config subscription
-	option name '硅谷云'
-	option user_agent 'clash.meta'
-	option prefer 'remote'
-	option url '2'
-
-config subscription
-	option name '猫耳'
-	option url '3'
-	option user_agent 'clash.meta'
-	option prefer 'remote'
-
-config subscription
-	option name '快猫'
-	option url '5'
-	option user_agent 'clash.meta'
-	option prefer 'remote'
-
-config subscription
-	option name '牛逼'
-	option url '6'
-	option user_agent 'clash.meta'
-	option prefer 'remote'
 
