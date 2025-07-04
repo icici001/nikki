@@ -188,7 +188,7 @@ config log 'log'
 
 config subscription
 	option name '聚合机场'
-	option url '1'
+	option url 'http://106.55.228.246:36666/hxvip?token=c69d78a947d2269cd13f8238781818ec'
 	option user_agent 'clash.meta'
 	option prefer 'remote'
 	option success '0'
